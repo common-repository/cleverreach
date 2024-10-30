@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CleverReach Newsletter Integration v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-21 06:48+0000\n"
+"PO-Revision-Date: 2021-08-11 13:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de-DE\n"
+"X-Loco-Version: 2.5.3; wp-5.8"
+
+#: resources/views/admin/settings-general.php:87
+msgid "# Subscribers"
+msgstr "Anzahl aktiver Empfänger"
+
+#: includes/class-cleverreach.php:208
+#, php-format
+msgid ""
+"<strong>Warning:</strong> CleverReach has changed its API, so you really "
+"<strong>have to</strong> update CleverReach WooCommerce to version %s."
+msgstr ""
+"<strong>Achtung:</strong> CleverReach hat seine Schnittstelle geändert, du "
+"<strong>musst</strong> daher unbedingt CleverReach WooCommerce auf Version "
+"%s aktualisieren."
+
+#: includes/Admin/class-form-builder-page.php:254
+msgid "Above field"
+msgstr "Über dem Feld"
+
+#: resources/views/admin/sidebar-woocommerce.php:9
+msgid "Add checkbox to checkout"
+msgstr "Anmelde-Checkbox beim Bestellvorgang"
+
+#: resources/views/admin/sidebar-woocommerce.php:21
+msgid "Add number of sales per user to CleverReach profile"
+msgstr "Speichert Anzahl der Käufe im CleverReach Profil"
+
+#: resources/views/admin/sidebar-form-usage.php:9
+msgid "Add the CleverReach widget to your sidebar"
+msgstr "Fügen Sie CleverReach Widget in Ihre Sidebar ein"
+
+#: resources/views/admin/sidebar-woocommerce.php:3
+msgid "Add to WooCommerce"
+msgstr "CleverReach im WooCommerce Shop integrieren"
+
+#: includes/Admin/class-form-builder-page.php:68
+msgid "Already subscribed"
+msgstr "Bereits angemeldet"
+
+#: includes/Admin/class-form-builder-page.php:75
+msgid "An Error occured"
+msgstr "Es ist ein Fehler aufgetreten"
+
+#: resources/views/admin/settings-form.php:45
+msgid "Available Fields"
+msgstr "Verfügbare Felder"
+
+#: includes/class-cleverreach.php:296 
+#: resources/views/admin/settings-form.php:120
+msgid "Available Options"
+msgstr "Verfügbare Optionen"
+
+#: includes/Admin/class-integrations-page.php:61
+msgid "Checkbox caption"
+msgstr "Checkbox Beschriftung"
+
+#: includes/Admin/class-integrations-page.php:82
+msgid "Checked by default"
+msgstr "Vorausgewählt"
+
+#: resources/views/admin/sidebar-woocommerce.php:5
+msgid ""
+"CleverReach can seamlessly be integrated in your WooCommerce checkout "
+"process."
+msgstr ""
+"Du kannst deine Newsletter Anmeldung direkt in den Bezahlvorgang deines "
+"Stores integrieren"
+
+#: includes/Admin/class-general-page.php:55
+msgid "CleverReach Connection"
+msgstr "CleverReach Verbindung"
+
+#: includes/Admin/class-integrations-page.php:68 
+#: resources/views/admin/settings-form.php:207
+msgid "CleverReach form"
+msgstr "CleverReach Formular"
+
+#: includes/Admin/class-integrations-page.php:92
+msgid "CleverReach Form Integrations"
+msgstr "CleverReach Formular Integration"
+
+#. Author of the plugin
+msgid "CleverReach GmbH & Co. KG"
+msgstr "CleverReach GmbH & Co. KG"
+
+#: includes/Admin/class-info-banner.php:36
+#| msgid ""
+#| "CleverReach has changed its API, please reconnect your account <a href=\"' . "
+#| "$link . '\">here</a> using the new REST API and review all of your settings."
+msgid ""
+"CleverReach has changed its API, please reconnect your account <a "
+"href=\"%s\">here</a> using the new REST API and review all of your settings."
+msgstr ""
+"CleverReach hat die API geändert. Bitte verbinden Sie Ihren Account <a "
+"href=\"%s\">hier</a> erneut mit der neuen REST API und überprüfen Sie alle "
+"Ihre Einstellungen."
+
+#: includes/Widget/class-widget.php:14
+msgid "CleverReach Sign-Up Form"
+msgstr "CleverReach Anmeldeformular"
+
+#: resources/views/admin/sidebar-woocommerce.php:31
+msgid "CleverReach WooCommerce Plugin"
+msgstr "CleverReach WooCommerce Plugin"
+
+#: includes/Admin/class-integrations-page.php:48
+msgid "Comment Form Integration"
+msgstr "Kommentar Integration"
+
+#: resources/views/admin/settings-form.php:125
+msgid "Company"
+msgstr "Firma"
+
+#: resources/views/admin/general/authenticate.php:27
+msgid "Connect to CleverReach"
+msgstr "Mit CleverReach verbinden"
+
+#: resources/views/admin/settings-general.php:20
+msgid ""
+"Connection initialized. Please save your settings to test connection and "
+"load your lists."
+msgstr ""
+"Verbindung wird initialisiert. Bitte speichern Sie Ihre Einstellungen, um "
+"die Verbindung zu testen und Ihre Empfängerlisten zu laden."
+
+#: includes/Proxy/class-proxy-resource.php:141
+#, fuzzy
+#| msgid "Could not connect to the Cleverreach API."
+msgid "Could not connect to the CleverReach API."
+msgstr "Die Verbindung zu CleverReach konnte nicht hergestellt werden."
+
+#: includes/Admin/class-general-page.php:167
+msgid "Could not load lists."
+msgstr "Listen konnten nicht geladen werden."
+
+#: resources/views/admin/settings-form.php:191
+#| msgid "Delete this form and reload attributes from CleverReach?"
+msgid "Delete this form and reload list attributes from CleverReach?"
+msgstr ""
+"Dieses Formular löschen und die Listen-Felder Attribute von CleverReach "
+"laden?"
+
+#: resources/views/admin/settings-form.php:58
+msgid "Description Text"
+msgstr "Beschreibungstext"
+
+#: resources/views/admin/settings-form.php:34
+msgid "Drag & Drop fields to create your form"
+msgstr ""
+"Zieh deine Felder an die gewünschte Position um dein Formular zusammen zu "
+"stellen."
+
+#: resources/views/admin/sidebar-form-usage.php:18
+msgid ""
+"Drop this line of PHP code in your theme where you want to show the form."
+msgstr ""
+"Fügen Sie diese Zeile PHP Code in Ihre Theme an der Stelle ein wo Sie das "
+"Formular anzeigen möchten."
+
+#. Description of the plugin
+msgid "Easily integrate a CleverReach Sign-Up Form in your website."
+msgstr ""
+"Füge ganz einfach ein CleverReach Newsletter Formular in deine Website ein."
+
+#: includes/class-cleverreach.php:273
+msgid "Edit form in new tab"
+msgstr "Formular in neuem Tab bearbeiten"
+
+#: resources/views/admin/settings-form.php:78
+msgid "Email"
+msgstr "E-Mail"
+
+#: resources/views/admin/settings-form.php:72
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: includes/class-cleverreach.php:271
+msgid "Embed your signup form"
+msgstr "Binden Sie Ihr Anmeldeformular ein"
+
+#: resources/views/admin/settings-form.php:124
+msgid "Family"
+msgstr "Familie"
+
+#: includes/Admin/class-form-builder-page.php:113 
+#: includes/Admin/class-form-builder-page.php:114 
+#: resources/views/admin/settings-form.php:14
+msgid "Form Builder"
+msgstr "Form Builder"
+
+#: includes/Admin/class-form-builder-page.php:48
+msgid "Form Settings"
+msgstr "Formular Einstellungen"
+
+#: resources/views/admin/settings-general.php:13
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/Admin/class-general-page.php:48
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: resources/views/admin/settings-form.php:107
+msgid "Global Attribute"
+msgstr "Globales Attribut"
+
+#: resources/views/admin/integrations/field-name-attribute-selection.php:28
+#, fuzzy
+#| msgid "Global atributes"
+msgid "Global attributes"
+msgstr "Globale Attribute"
+
+#: resources/views/admin/sidebar-form-usage.php:3
+msgid "How to use this form"
+msgstr "Verwendung des Formulars"
+
+#: resources/views/admin/sidebar-haet.php:8
+msgid "https://support.cleverreach.de/hc/en-us/"
+msgstr "https://support.cleverreach.de/hc/de"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/cleverreach/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.cleverreach.com"
+msgstr ""
+
+#: resources/views/admin/sidebar-features.php:10
+msgid "https://www.cleverreach.com/en/integrations/wordpress/"
+msgstr "https://www.cleverreach.com/de/integrationen/wordpress/"
+
+#: includes/Admin/class-form-builder-page.php:256
+msgid "Inside field"
+msgstr "Innerhalb des Feldes"
+
+#: resources/views/admin/settings-integrations.php:12
+msgid "Integration Settings"
+msgstr "Integrationseinstellungen"
+
+#: includes/Admin/class-integrations-page.php:93
+msgid "Integrations"
+msgstr "Integration"
+
+#: includes/Admin/class-form-builder-page.php:61
+msgid "Invalid Email"
+msgstr "Ungültige E-Mail Adresse"
+
+#: resources/views/admin/settings-form.php:47
+msgid "Just drag the fields to the form above."
+msgstr "Ziehen Sie die Felder einfach in das obenstehende Formular."
+
+#: resources/views/admin/sidebar-woocommerce.php:25
+msgid "Keep track of latest purchase date in CleverReach"
+msgstr "Speichert das letzte Bestelldatum in CleverReach"
+
+#: includes/class-cleverreach.php:293 
+#: resources/views/admin/settings-form.php:76 
+#: resources/views/admin/settings-form.php:112 
+#: resources/views/admin/settings-form.php:150 
+#: resources/views/admin/settings-form.php:170
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/Admin/class-form-builder-page.php:89
+msgid "Label position"
+msgstr "Position der Beschriftung"
+
+#: includes/Admin/class-form-builder-page.php:253
+msgid "Left of field"
+msgstr "Links vom Feld"
+
+#: resources/views/admin/integrations/field-name-attribute-selection.php:49
+#, fuzzy
+#| msgid "List atributes"
+msgid "List attributes"
+msgstr "Listen Attribute"
+
+#: resources/views/admin/settings-general.php:83
+msgid "List Name"
+msgstr "Name der Liste"
+
+#: resources/views/admin/form/options-form.php:9
+msgid "List:"
+msgstr "Liste:"
+
+#: resources/views/admin/settings-form.php:230
+msgid "Load Form Attributes"
+msgstr "Lade Formular Felder"
+
+#: includes/class-cleverreach.php:272
+msgid "Loading signup form..."
+msgstr "Anmeldeformular wird geladen..."
+
+#: resources/views/admin/sidebar-features.php:5
+msgid ""
+"Looking for more integration between WordPress and CleverReach? Other ones "
+"are NinjaForms, PopUpMaker, Contact Form 7, etc. "
+msgstr ""
+"Auf der Suche nach weiteren Integrationen zwischen WordPress und CleverReach?"
+" Weitere sind beispielsweise NinjaForms, PopUpMaker, Contact Form 7, etc."
+
+#: resources/views/admin/sidebar-haet.php:3
+msgid "Looking for Support?"
+msgstr "Hilfe gefällig?"
+
+#: resources/views/admin/sidebar-features.php:13
+msgid "More info"
+msgstr "Mehr Info"
+
+#: resources/views/admin/settings-form.php:123
+msgid "Mr."
+msgstr "Herr"
+
+#: resources/views/admin/settings-form.php:122
+msgid "Mrs."
+msgstr "Frau"
+
+#: includes/Admin/class-integrations-page.php:75
+msgid "Name attribute"
+msgstr "Attribut für den Namen"
+
+#: resources/views/admin/sidebar-features.php:3
+msgid "Need more features?"
+msgstr "Brauchst du mehr Features"
+
+#: includes/Utility/class-config.php:83
+msgid "Oops. Something went wrong. Please try again later."
+msgstr "Es ist ein Fehler aufgetreten, bitte versuch es später nochmal."
+
+#: resources/views/admin/sidebar-haet.php:6
+msgid ""
+"Please check out our <a href=\"%s\">helpcenter</a> or our <a href=\"%s\">"
+"seminars.</a>"
+msgstr ""
+"Besuchen Sie unser <a href=\"%s\">Help Center</a> oder unsere <a href=\"%s\">"
+"Online-Seminare.</a>"
+
+#: includes/Admin/class-general-page.php:130
+#| msgid ""
+#| "Please click the button below to connect to your CleverReach account.<br><br>"
+#| "If you don't have an account yet <a href=\"http://www.cleverreach.com/?"
+#| "rk=74089ojcjrsrb\" target=\"_blank\">SIGNUP HERE</a> for a free newsletter "
+#| "system for up to 250 receivers."
+msgid ""
+"Please click the button below to connect to your CleverReach account.<br><br>"
+"If you don't have an account yet <a href=\"https://www.cleverreach."
+"com/en/login/\" target=\"_blank\">SIGNUP HERE</a> for a free newsletter "
+"system for up to 250 receivers."
+msgstr ""
+"Bitte klicke auf den Button um deinen CleverReach account zu verbinden.<br>"
+"<br>Wenn du noch keinen CleverReach Account hast, kannst du dich <a "
+"href=\\\"https://www.cleverreach.com/de/login/\" target=\\\"_blank\\\">"
+"HIER</a>  anmelden.<br>Du erhältst für bis zu 250 Empfänger ein kostenloses "
+"professionelles Newsletter-System."
+
+#: includes/Admin/class-info-banner.php:214
+msgid ""
+"Please create attribute field in your CleverReach list and reload lists in "
+"plugin general page."
+msgstr ""
+"Bitte legen Sie diese in der Empfängerliste unter Einstellungen in Ihrem "
+"CleverReach-Konto an und laden Sie die Listen auf der Seite Allgemeine "
+"Einstellungen des Plugins neu."
+
+#: includes/Admin/class-info-banner.php:201
+msgid ""
+"Please create form in your CleverReach account and reload lists in plugin "
+"general page."
+msgstr ""
+"Bitte erstellen Sie ein Formular in Ihrem CleverReach Konto und laden Sie "
+"die Listen auf der Seite Allgemeine Einstellungen des Plugins neu."
+
+#: includes/Admin/class-info-banner.php:188
+msgid ""
+"Please create list in your CleverReach account and reload lists in plugin "
+"general page."
+msgstr ""
+"Bitte erstellen Sie eine Liste in Ihrem CleverReach Konto und laden Sie die "
+"Listen auf der Seite Allgemeine Einstellungen des Plugins neu."
+
+#: resources/views/admin/integrations/field-comments-section-checkbox-default.php:17
+msgid "Please make sure this option is allowed in your country."
+msgstr "Stellen Sie bitte sicher das diese Option in Ihrem Land erlaubt ist. "
+
+#: includes/Utility/class-config.php:87
+msgid "Please provide a valid email address."
+msgstr "Bitte gib eine gültige E-Mail Adresse an."
+
+#: resources/views/admin/integrations/field-name-attribute-selection.php:71
+msgid ""
+"Please save your form changes first in order to refresh available attributes."
+msgstr ""
+"Bitte Änderungen speichern, um die verfügbaren Daten-Felder zu aktualisieren."
+
+#: includes/Admin/class-integrations-page.php:230
+msgid "Please select a CleverReach form above."
+msgstr "Bitte wählen Sie oben ein CleverReach Formular aus."
+
+#: resources/views/admin/settings-form.php:200
+msgid ""
+"Please select a form below to load the list attributes from CleverReach. To "
+"use these functions, a form and a recipient list need to be set up in "
+"CleverReach."
+msgstr ""
+"Bitte wählen Sie ein Formular um die Listen-Felder Attribute von Ihrem "
+"CleverReach Account zu laden. Um diese Funktion zu nutzen, müssen in "
+"CleverReach ein Formular und eine Empfängerliste erstellt werden."
+
+#: resources/views/admin/settings-form.php:146
+msgid "Privacy policy checkbox"
+msgstr "Datenschutz-Checkbox"
+
+#: resources/views/admin/general/authenticate.php:21
+msgid "Reconnect"
+msgstr "Erneut verbinden"
+
+#: includes/Admin/class-info-banner.php:35
+msgid "Reconnect to new CleverReach API."
+msgstr "Stellen Sie eine erneute Verbindung mit der neuen CleverReach API her."
+
+#: resources/views/admin/settings-general.php:114
+msgid "Reload Lists from CleverReach"
+msgstr "Aktualisiere deine Listen von CleverReach"
+
+#: includes/class-cleverreach.php:295 
+#: resources/views/admin/settings-form.php:84 
+#: resources/views/admin/settings-form.php:136 
+#: resources/views/admin/settings-form.php:158
+msgid "required"
+msgstr "erforderlich"
+
+#: includes/Admin/class-form-builder-page.php:82
+msgid "Required Field Error"
+msgstr "Pflichtfeld Fehlermeldung"
+
+#: includes/Admin/class-form-builder-page.php:255
+msgid "Right of field"
+msgstr "Rechts des Feldes"
+
+#: resources/views/admin/integrations/field-name-attribute-selection.php:76
+msgid "Select a CleverReach attribute to store the name of the comment author."
+msgstr ""
+"Wählen Sie ein CleverReach-Datenfeld aus, um den Namen des Kommentarautors "
+"in CleverReach zu speichern."
+
+#: resources/views/admin/sidebar-woocommerce.php:13
+msgid "Select CleverReach group"
+msgstr "CleverReach Gruppe im Backend wählbar"
+
+#: includes/Admin/class-integrations-page.php:54
+msgid "Show checkbox in comments"
+msgstr "Anmelde-Checkbox im Kommentar Formular anzeigen"
+
+#: includes/Utility/class-config.php:80
+msgid "Sign up for our newsletter"
+msgstr "Für unseren Newsletter anmelden"
+
+#. Name of the plugin
+msgid "Sign-Up Form for CleverReach Newsletter"
+msgstr "Anmeldeformular für CleverReach Newsletter"
+
+#: resources/views/admin/settings-form.php:64
+msgid "Signup for our Newsletter!"
+msgstr "Melde dich zu unserem Newsletter an!"
+
+#: resources/views/admin/settings-form.php:166
+msgid "Submit Button"
+msgstr "Absenden-Button"
+
+#: resources/views/admin/sidebar-woocommerce.php:17
+msgid "Submit product categories to CleverReach"
+msgstr "Produktkategorien können an CleverReach übertragen werden"
+
+#: resources/views/admin/settings-form.php:172
+msgid "Subscribe"
+msgstr "Anmelden"
+
+#: includes/Admin/class-form-builder-page.php:54
+msgid "Success message"
+msgstr "Erfolgsnachricht"
+
+#: includes/Admin/class-general-page.php:143
+#, fuzzy
+#| msgid "Successfully connected to Cleverreach."
+msgid "Successfully connected to CleverReach."
+msgstr "Erfolgreich mit CleverReach verbunden."
+
+#: includes/class-cleverreach.php:294 
+#: resources/views/admin/settings-form.php:62
+msgid "Text"
+msgstr "Text"
+
+#: includes/Utility/class-config.php:85
+msgid "Thank you for your subscription."
+msgstr "Vielen Dank für Deine Anmeldung"
+
+#: includes/Admin/class-info-banner.php:121
+msgid ""
+"The form which you have selected for the form builder under the Form Builder "
+"tab, doesn’t exist anymore. Please set a new one."
+msgstr ""
+"Das Formular, welches Sie im Form-Builder benutzt haben, existiert leider "
+"nicht mehr. Bitte hinterlegen Sie ein neues Formular."
+
+#: includes/Admin/class-info-banner.php:108
+msgid ""
+"The form which you have selected for the newsletter checkbox under the "
+"Integration tab, doesn’t exist anymore. Please set a new one."
+msgstr ""
+"Das Formular, welches Sie im Plugin-Tab \"Integrationen\" für die Newsletter-"
+"Checkbox gewählt haben, existiert leider nicht mehr. Bitte wählen Sie ein "
+"neues Formular."
+
+#: includes/Admin/class-info-banner.php:120
+msgid "The selected form for the form builder doesn’t exist anymore."
+msgstr "Das gewählte Formular für den Form Builder existiert nicht mehr."
+
+#: includes/Admin/class-info-banner.php:107
+msgid "The selected form for the newsletter form doesn’t exist anymore."
+msgstr "Das ausgewählte Newsletter-Formular existiert nicht mehr."
+
+#: resources/views/admin/sidebar-form-usage.php:5
+msgid "There are different ways to use this form:"
+msgstr "Es gibt verschiedene Möglichkeiten dieses Formular anzuzeigen:"
+
+#: includes/Admin/class-info-banner.php:213
+msgid "There are no attributes in your CleverReach account."
+msgstr "In Ihrem CleverReach Konto gibt es keine Daten-Felder."
+
+#: includes/Admin/class-info-banner.php:200
+#, fuzzy
+#| msgid " There are no forms in your CleverReach account."
+msgid "There are no forms in your CleverReach account."
+msgstr "In Ihrem CleverReach Konto gibt es keine Formulare."
+
+#: includes/Admin/class-info-banner.php:187
+msgid "There are no recipient lists in your CleverReach account."
+msgstr "In Ihrem CleverReach Konto gibt es keine Empfängerlisten."
+
+msgid "There has been an error, please try again later."
+msgstr "Ein Fehler ist aufgetreten, bitte versuchen Sie es später erneut."
+
+#: includes/Utility/class-config.php:88
+msgid "This is a mandatory field."
+msgstr "Dies ist ein Pflichtfeld."
+
+#: resources/views/admin/sidebar-form-usage.php:13
+msgid ""
+"Use the <code>[cleverreach_signup]</code> shortcode anywhere in your pages "
+"or posts"
+msgstr ""
+"Verwenden Sie den  <code>[cleverreach_signup]</code> Shortcode in Ihren "
+"Seiten oder Beiträgen"
+
+#: resources/views/admin/settings-form.php:152
+msgid "Yes, I agree to your privacy policy..."
+msgstr "Ja, ich stimme den Datenschutzbestimmungen zu."
+
+#: resources/views/admin/general/authenticate.php:8
+msgid ""
+"You can switch to the new faster REST API at any time, just connect your "
+"account below."
+msgstr ""
+"Du kannst sofort auf die neue schnellere REST Schnittstelle wechseln, "
+"verbinde einfach deinen Account unterhalb."
+
+#: includes/Admin/class-general-page.php:163
+#, fuzzy
+#| msgid "You don't have any Cleverreach forms."
+msgid "You don't have any CleverReach forms."
+msgstr "Du hast noch keine Formulare in deinem CleverReach Account angelegt."
+
+#: includes/Utility/class-config.php:86
+msgid "You're already subscribed."
+msgstr "Du bist bereits angemeldet."
+
+#: resources/views/admin/general/authenticate.php:17
+msgid "Your CleverReach account is connected."
+msgstr "Ihr CleverReach-Account ist verbunden."
+
+#: resources/views/admin/settings-general.php:77
+msgid "Your CleverReach lists"
+msgstr "Deine CleverReach Listen"
+
+#: resources/views/admin/settings-form.php:38
+msgid "Your Form"
+msgstr "Dein Formular"

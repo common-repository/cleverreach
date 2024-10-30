@@ -1,0 +1,113 @@
+.haet-cleverreach .message-error,
+.haet-cleverreach .cleverreach-error-message {
+    color: red;
+}
+
+.haet-cleverreach .haet-cleverreach-field-wrap {
+    margin-bottom: 10px;
+}
+
+.haet-cleverreach .haet-cleverreach-field-wrap p {
+    margin: 0;
+}
+
+/* CLEARFIX */
+.haet-cleverreach .haet-cleverreach-field-wrap {
+    zoom: 1;
+}
+
+.haet-cleverreach .haet-cleverreach-field-wrap:before,
+.haet-cleverreach .haet-cleverreach-field-wrap:after {
+    content: "";
+    display: table;
+}
+
+.haet-cleverreach .haet-cleverreach-field-wrap:after {
+    clear: both;
+}
+
+.haet-cleverreach .label-top label {
+    float:left;
+    clear:both;
+}
+
+.haet-cleverreach .label-top input,
+.haet-cleverreach .label-top select {
+    float:left;
+    clear:both;
+}
+
+.haet-cleverreach .label-left label {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 0;
+    text-align: left;
+}
+
+.haet-cleverreach .label-left input,
+.haet-cleverreach .label-left select {
+    display: block;
+    float: left;
+    width: 60%;
+    margin: 0;
+    text-align: left;
+}
+
+.haet-cleverreach .label-right label {
+    display: block;
+    float: right;
+    width: 35%;
+    margin: 0;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.haet-cleverreach .label-right input,
+.haet-cleverreach .label-right select {
+    display: block;
+    float: right;
+    width: 60%;
+    margin: 0;
+    text-align: left;
+}
+
+.haet-cleverreach-field-wrap.type-submit {
+    text-align: center;
+}
+
+
+/* form integrations */
+.cleverreach-checkbox input {
+    display: inline;
+}
+
+.cleverreach-checkbox label {
+    display: inline;
+}
+
+
+.cleverreach-preview-container {
+    position: relative;
+    pointer-events: none;
+}
+
+.cleverreach-preview-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.cleverreach-checkbox{
+    display: inline-block;
+}
+
+.cleverreach-checkbox label{
+    display: inline !important;
+}
+
+.cleverreach-checkbox input[type="checkbox"]{
+    display: inline-flex !important;
+}

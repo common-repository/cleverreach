@@ -1,0 +1,15 @@
+{
+  "name": "cleverreach/newsletter",
+  "description": "CleverReach Newsletter Integration",
+  "type": "library",
+  "require": {
+    "php": ">=5.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "includes",
+      "database"
+    ]
+  }
+}
